@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello, This is the CNCG last session!, This is cosmos branch");
+    response.end("Hello, This is the CNCG last session!, This is cosmos branch on my cosmos linux");
 });
 
 const port = process.env.PORT || 1337;
